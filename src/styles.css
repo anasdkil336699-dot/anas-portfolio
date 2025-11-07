@@ -1,0 +1,349 @@
+/* === Part 1: CSS Reset & Body Defaults === */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* === Part 2: Main Semantic Layout Styling === */
+
+header,
+main,
+footer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  border-bottom: 4px solid #005a9c;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 30px;
+  box-shadow: none;
+}
+
+/* === Part 3: Typography (Text Styling) === */
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #005a9c;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #004c83;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #005a9c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 30px 0;
+}
+
+/* === Part 4: Specific Sections Styling === */
+
+/* Home Section Image */
+
+#home figure {
+  margin: 0;
+  text-align: center;
+}
+
+#home figure img {
+  border-radius: 50%;
+  border: 5px solid #eee;
+}
+
+#home figure figcaption {
+  font-style: italic;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* CV Section: Make nested lists look cleaner */
+
+#cv ul ul {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#cv article {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 3px solid #eee;
+}
+
+/* Documents Section List */
+.document-list {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+}
+
+.document-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.document-list li strong {
+  display: block;
+  color: #333;
+  font-size: 1.1em;
+}
+
+/* === Part 5: Form Styling (From Lab 4) === */
+
+/* Contact Info Styling */
+
+.contact-details ul {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+}
+
+.contact-details li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Form Fields */
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+/* Submit Button */
+
+button[type="submit"] {
+  display: inline-block;
+  background-color: #005a9c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #003d6a;
+}
+
+/* === Part 6: CV Section Specific Styling (Centering) === */
+
+/* Center the main headings in the CV section */
+
+#cv h3 {
+  text-align: center;
+  font-size: 1.7em;
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Center the sub-headings (like Technical Skills) */
+
+#cv h4 {
+  text-align: center;
+}
+
+/* === Part 7: Phase 3B - Navigation & Mobile Menu (UPDATED) === */
+
+/* 1. Hide the new hamburger button on Desktop */
+#menu-toggle {
+  display: none; /* Hidden by default (Desktop-first) */
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  color: #005a9c;
+}
+
+/* 2. Desktop Navigation (Flexbox) */
+/* We target the <ul> list directly */
+#nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* 3. Style the <li> (Flex Items) */
+#nav-menu li {
+  margin: 5px 15px;
+}
+
+/* 4. Style the links inside the nav */
+#nav-menu a {
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+#nav-menu a:hover {
+  color: #003d6a;
+  text-decoration: underline;
+}
+
+/* === Part 8: Phase 3B - CSS Grid for Skills (from Lab 5) === */
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.portfolio-note {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-left: 5px solid #005a9c;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-top: 30px;
+  font-style: italic;
+  color: #555;
+}
+
+.portfolio-note strong {
+  font-style: normal;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* === Part 9: Phase 3B - Responsive Design (Media Queries) (ADDED) === */
+
+/* This code block targets screens that are 768px wide OR LESS */
+@media (max-width: 768px) {
+  /* 1. Make the Skills section stack vertically */
+  .skills-container {
+    /* Change from two columns to ONE column */
+    grid-template-columns: 1fr;
+    gap: 20px; /* Reduce the gap */
+  }
+
+  /* 2. Adjust main layout for small screens */
+  header,
+  main,
+  footer {
+    width: 100%;
+    margin: 10px auto; /* Reduce top/bottom margin */
+    padding: 15px; /* Reduce internal padding */
+  }
+
+  /* 3. Adjust font sizes for readability */
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  /* --- NEW Mobile Menu Styles --- */
+
+  /* 4. Show the hamburger button on mobile */
+  #menu-toggle {
+    display: block; /* Show the button */
+    margin: 0 auto 10px; /* Center it */
+  }
+
+  /* 5. Change the Flexbox direction to vertical */
+  #nav-menu {
+    /* Stack the links vertically */
+    flex-direction: column;
+    text-align: center;
+
+    /* 6. Hide the menu by default on mobile */
+    display: none;
+  }
+
+  /* 7. This class will be added by JavaScript to show the menu */
+  #nav-menu.show-menu {
+    display: flex; /* This overrides 'display: none' */
+  }
+}
