@@ -10,29 +10,20 @@ export default function Documents() {
       <ul className="document-list">
         <li>
           <strong>My CV:</strong>
-          <a
-            href="files/Cooperative Training CV..pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View / Download PDF
-          </a>
+          {/* STEP 1: We removed target="_blank" 
+            This will make it open in the SAME tab.
+          */}
+          <a href="files/Cooperative Training CV..pdf">View / Download PDF</a>
         </li>
         <li>
           <strong>Academic Transcript:</strong> (كشف الدرجات)
-          <a
-            href="files/السجل الأكاديمي- طبق الأصل.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View / Download PDF
-          </a>
+          {/* STEP 2: We removed target="_blank" */}
+          <a href="files/السجل الأكاديمي- طبق الأصل.pdf">View / Download PDF</a>
         </li>
         <li>
           <strong>University Co-op Letter:</strong> (خطاب الجامعة)
-          <a href="files/General spech.pdf" target="_blank" rel="noreferrer">
-            View / Download PDF
-          </a>
+          {/* STEP 3: We removed target="_blank" */}
+          <a href="files/General spech.pdf">View / Download PDF</a>
         </li>
       </ul>
     </section>
