@@ -18,11 +18,9 @@ export default function App() {
       <main>
         <Home />
         <hr />
-        <About />
-        <hr />
         <Cv />
         <hr />
-        <Documents />
+        <Certificates and documents />
         <hr />
         <Contact />
       </main>
