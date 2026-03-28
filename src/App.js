@@ -1,28 +1,42 @@
 // src/App.js
 import "./styles.css";
 
-// Import all the components we just created
+// Import components
 import Header from "./Header";
 import Home from "./Home";
 import Cv from "./Cv";
-import Documents from "./Certificates and documents";
+import Documents from "./Documents";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-// This is the main component that assembles the page
+// Main App Component
 export default function App() {
   return (
     <div className="App">
       <Header />
 
       <main>
-        <Home />
+        <section id="home">
+          <Home />
+        </section>
+
         <hr />
-        <Cv />
+
+        <section id="cv">
+          <Cv />
+        </section>
+
         <hr />
-        <Certificates and documents />
+
+        <section id="documents">
+          <Documents />
+        </section>
+
         <hr />
-        <Contact />
+
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
 
       <Footer />
