@@ -40,14 +40,12 @@ export default function Header() {
           <li>
             <a href="#home">Home</a>
           </li>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
+
           <li>
             <a href="#cv">CV</a>
           </li>
           <li>
-            <a href="#documents">Documents</a>
+            <a href="#documents">Certificates & Documents</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
