@@ -136,11 +136,6 @@ export default function Cv() {
           </ul>
         </div>
       </div>
-      <h3>Languages</h3>
-      <ul>
-        <li>Arabic</li>
-        <li>English</li>
-      </ul>
     </section>
   );
 }
