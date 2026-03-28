@@ -1,49 +1,77 @@
-/* شبكة البطاقات */
-.doc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
-  margin-top: 15px;
-}
+import React from "react";
 
-/* شكل البطاقة */
-.doc-card {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: 0.2s;
-}
+export default function Documents() {
+  return (
+    <section>
+      <h2>Certificates</h2>
 
-/* تأثير hover */
-.doc-card:hover {
-  transform: translateY(-5px);
-}
+      <div className="doc-grid">
 
-/* الأيقونة */
-.doc-card span {
-  font-size: 40px;
-  display: block;
-  margin-bottom: 10px;
-}
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Cybersecurity Fundamentals Guided Learning</p>
+          <a href="/files/Cybersecurity Fundamentals Guided Learning.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Cybersecurity Fundamentals Guided Learning.pdf" download>Download</a>
+        </div>
 
-/* اسم الملف */
-.doc-card p {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Data Entry and Word Processing</p>
+          <a href="/files/Data Entry and Word Processing.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Data Entry and Word Processing.pdf" download>Download</a>
+        </div>
 
-/* زر */
-.doc-card a {
-  display: inline-block;
-  padding: 8px 12px;
-  background: #0b5ed7;
-  color: white;
-  border-radius: 5px;
-  text-decoration: none;
-}
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Web Development Fundamentals</p>
+          <a href="/files/Web Development Fundamentals.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Web Development Fundamentals.pdf" download>Download</a>
+        </div>
 
-.doc-card a:hover {
-  background: #084298;
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Java 103</p>
+          <a href="/files/Java 103.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Java 103.pdf" download>Download</a>
+        </div>
+
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Introduction to Data Analysis</p>
+          <a href="/files/Introduction to Data Analysis.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Introduction to Data Analysis.pdf" download>Download</a>
+        </div>
+
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Network security</p>
+          <a href="/files/Network security.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Network security.pdf" download>Download</a>
+        </div>
+
+      </div>
+
+      <hr />
+
+      <h2>Other Documents</h2>
+
+      <div className="doc-grid">
+
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Academic transcript - true copy</p>
+          <a href="/files/Academic transcript - true copy.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Academic transcript - true copy.pdf" download>Download</a>
+        </div>
+
+        <div className="doc-card">
+          <span>📄</span>
+          <p>Anas CV</p>
+          <a href="/files/Anas CV.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="/files/Anas CV.pdf" download>Download</a>
+        </div>
+
+      </div>
+    </section>
+  );
 }
