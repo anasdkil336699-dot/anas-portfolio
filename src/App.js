@@ -4,9 +4,8 @@ import "./styles.css";
 // Import all the components we just created
 import Header from "./Header";
 import Home from "./Home";
-import About from "./About";
 import Cv from "./Cv";
-import Documents from "./Documents";
+import Documents from "./Certificates and documents";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
