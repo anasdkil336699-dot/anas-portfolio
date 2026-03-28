@@ -1,69 +1,49 @@
-import React from "react";
+/* شبكة البطاقات */
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
 
-export default function Documents() {
-  return (
-    <section>
-      <h2>Certificates</h2>
+/* شكل البطاقة */
+.doc-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
 
-      <div className="doc-box">
-        <strong>Cybersecurity Fundamentals Guided Learning</strong><br />
-        <a href="/files/Cybersecurity Fundamentals Guided Learning.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
+/* تأثير hover */
+.doc-card:hover {
+  transform: translateY(-5px);
+}
 
-      <div className="doc-box">
-        <strong>Data Entry and Word Processing</strong><br />
-        <a href="/files/Data Entry and Word Processing.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
+/* الأيقونة */
+.doc-card span {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
 
-      <div className="doc-box">
-        <strong>Web Development Fundamentals</strong><br />
-        <a href="/files/Web Development Fundamentals.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
+/* اسم الملف */
+.doc-card p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
-      <div className="doc-box">
-        <strong>Java 103</strong><br />
-        <a href="/files/Java 103.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
+/* زر */
+.doc-card a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #0b5ed7;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
-      <div className="doc-box">
-        <strong>Introduction to Data Analysis</strong><br />
-        <a href="/files/Introduction to Data Analysis.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
-
-      <div className="doc-box">
-        <strong>Network security</strong><br />
-        <a href="/files/Network security.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
-
-      <hr />
-
-      <h2>Other Documents</h2>
-
-      <div className="doc-box">
-        <strong>Academic transcript - true copy</strong><br />
-        <a href="/files/Academic transcript - true copy.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
-
-      <div className="doc-box">
-        <strong>Anas CV</strong><br />
-        <a href="/files/Anas CV.pdf" target="_blank">
-          View / Download PDF
-        </a>
-      </div>
-    </section>
-  );
+.doc-card a:hover {
+  background: #084298;
 }
