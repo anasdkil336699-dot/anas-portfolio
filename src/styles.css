@@ -262,7 +262,7 @@ button[type="submit"]:hover {
 /* Center the main headings in the CV section */
 
 #cv h3 {
-  text-align: center;
+  text-align: left;
   font-size: 1.7em;
   background-color: #f9f9f9;
   padding: 8px;
@@ -272,7 +272,7 @@ button[type="submit"]:hover {
 /* Center the sub-headings (like Technical Skills) */
 
 #cv h4 {
-  text-align: center;
+  text-align: left;
 }
 
 /* === Part 7: Phase 3B - Navigation & Mobile Menu (UPDATED) === */
