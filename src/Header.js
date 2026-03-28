@@ -1,44 +1,24 @@
-// src/Header.js
 import React, { useState } from "react";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header>
-      <h1>Anas Portfolio</h1>
+    <>
+      {/* زر القائمة */}
+      <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
+        ☰
+      </button>
 
-      <nav>
-        <button
-          id="menu-toggle"
-          aria-label="Toggle Navigation"
-          onClick={toggleMenu}
-        >
-          &#9776;
-        </button>
-
-        <ul id="nav-menu" className={isMenuOpen ? "show-menu" : ""}>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-
-          <li>
-            <a href="#cv">CV</a>
-          </li>
-
-          <li>
-            <a href="#documents">Certificates & Documents</a>
-          </li>
-
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+      {/* القائمة الجانبية */}
+      <div className={`sidebar ${isOpen ? "open" : ""}`}>
+        <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
+        <a href="#cv" onClick={() => setIsOpen(false)}>CV</a>
+        <a href="#documents" onClick={() => setIsOpen(false)}>
+          Certificates & Documents
+        </a>
+        <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
+      </div>
+    </>
   );
 }
