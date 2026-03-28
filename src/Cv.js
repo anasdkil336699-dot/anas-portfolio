@@ -8,12 +8,12 @@ export default function Cv() {
 
       <h3>Summary</h3>
       <p>
-        A third-year Computer Science student at Umm Al-Qura University, seeking
-        a co-op training opportunity. I have strong knowledge of programming
-        languages such as Java, as well as database creation. I have skills in
-        developing and building websites. I aspire to apply my skills in a
-        professional work environment and contribute to achieving the company's
-        goals.
+        Computer science student at Umm Al-Qura University, currently in my sixth semester (cooperative
+        training). I have two semesters remaining, and I expect to graduate in mid-2027.
+        I'm currently training at Yanpet (A SABIC subsidiary) in the cybersecurity department, where I'm
+        gaining practical experience in protecting industrial systems and working with network infrastructure,
+        including switches, routers, and servers. 
+        I'm continuously developing my technical skills through courses and self-learning.
       </p>
 
       <h3>Education</h3>
