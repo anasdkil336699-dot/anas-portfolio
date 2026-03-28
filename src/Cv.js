@@ -22,6 +22,7 @@ export default function Cv() {
           <h4>High School Diploma | Kingdom of Saudi Arabia</h4>
           <ul>
             <li>Cumulative GPA: 99.35</li>
+            <li>Qudurat Score: 92</li>
             <li>Achievement Score: 85</li>
           </ul>
         </li>
@@ -30,7 +31,7 @@ export default function Cv() {
           <ul>
             <li>
               Bachelor of Computer Science Student | Current Cumulative GPA:
-              3.58 / 4.0
+              3.62 / 4.0
             </li>
             <li>
               Studied programming fundamentals and algorithms, and data
@@ -47,15 +48,9 @@ export default function Cv() {
       <h3>Certificates and Courses</h3>
       <ol>
         <li>Cybersecurity Fundamentals | IBM SkillsBuild, September 2025</li>
-        <li>Web Development Fundamentals | IBM SkillsBuild, September 2025</li>
-        <li>
-          Introduction to Data Analysis | Satr Educational Platform, September
-          2025
-        </li>
-        <li>JAVA 103 | Satr Educational Platform, September 2025</li>
-        <li>
-          Network Security 102 | Satr Educational Platform, September 2025
-        </li>
+        <li>Network Security 102 | Satr Platform | Sep 2025</li>
+        <li>Web Development Fundamentals | IBM SkillsBuild | Sep 2025 </li>
+        <li>Data Entry and Word Processing | Al-Basaer Institute  </li>
       </ol>
 
       <h3>Projects</h3>
@@ -64,33 +59,16 @@ export default function Cv() {
         <h4>Cybersecurity Simulation | IBM SkillsBuild | September 2025</h4>
         <ul>
           <li>
-            Completed a practical simulation in the field of cybersecurity based
-            on real-world scenarios.
-          </li>
-          <li>
-            Identified security vulnerabilities, responded to incidents, and
-            applied defensive measures.
-          </li>
-          <li>
-            Demonstrated skills in risk assessment and operating secure systems.
+           Identified vulnerabilities and applied basic defensive measures in real-world scenarios. 
           </li>
         </ul>
       </article>
 
       <article>
-        <h4>Web Development Fundamentals | IBM SkillsBuild | September 2025</h4>
+        <h4>Web Development Project | IBM SkillsBuild | Sep 2025</h4>
         <ul>
           <li>
-            Designed and developed a fully responsive web page using CSS, HTML,
-            and JavaScript.
-          </li>
-          <li>
-            Applied fundamental concepts of the Software Development Life Cycle
-            (SDLC) and modern methodologies like DevOps.
-          </li>
-          <li>
-            Gained hands-on experience in website testing and applying
-            continuous deployment principles.
+            Developed an interactive web application using HTML, CSS, and JavaScript. 
           </li>
         </ul>
       </article>
@@ -102,24 +80,48 @@ export default function Cv() {
         </h4>
         <ul>
           <li>
-            Developed a vehicle management system using OOP principles
-            (Encapsulation, Inheritance, and Polymorphism) to manage different
-            vehicle types.
+            Built a vehicle management system using OOP principles. 
           </li>
         </ul>
       </article>
 
+      <article>
+        <h4>
+          Personal Portfolio Website | 2025
+        </h4>
+        <ul>
+          <li>
+           Developed a personal website to showcase projects and skills.  
+          </li>
+          <li>
+           Portfolio: anas-portfolio-rose.vercel.app   
+          </li>
+        </ul>
+      </article>
+
+      <h3> Experience</h3>
+      <h4>
+        Cybersecurity Trainee | Yanpet (A SABIC subsidiary) | 2026 – Present  
+      </h4>
+      <ol>
+        <li>Gaining hands-on experience in protecting industrial systems within an operational environment.</li>
+        <li> Working with network infrastructure, including switches, routers, and servers.</li>
+        <li> Assisting in monitoring and maintaining system security and performance.</li>
+        <li>Supporting basic network and system-related tasks within the I&CS department.</li>
+      </ol>
+
+            
       <h3>Skills</h3>
 
       <div className="skills-container">
         <div>
           <h4>Technical Skills</h4>
           <ul>
-            <li>Software Development</li>
-            <li>Database Management</li>
-            <li>Computer Networks</li>
-            <li>Algorithm Design</li>
-            <li>Web Development</li>
+            <li>Cybersecurity</li>
+            <li>Network Infrastructure (Switches, Routers) </li>
+            <li> Server Management </li>
+            <li>Web Development </li>
+            <li>Object-Oriented Programming (Java)</li>
           </ul>
         </div>
 
