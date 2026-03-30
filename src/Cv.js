@@ -8,38 +8,22 @@ export default function Cv() {
 
       <h3>Summary</h3>
       <p>
-        Computer science student at Umm Al-Qura University, currently in my sixth semester (cooperative
-        training). I have two semesters remaining, and I expect to graduate in mid-2027.
-        I'm currently training at Yanpet (A SABIC subsidiary) in the cybersecurity department, where I'm
-        gaining practical experience in protecting industrial systems and working with network infrastructure,
-        including switches, routers, and servers. 
-        I'm continuously developing my technical skills through courses and self-learning.
+        A computer science student at Umm Al-Qura University. I'm continuously developing my technical
+        skills through courses and self-learning.
+        I gained practical experience in protecting industrial systems and working with network infrastructure,
+        including switches, routers, and servers.
       </p>
 
       <h3>Education</h3>
       <ul>
         <li>
-          <h4>High School Diploma | Kingdom of Saudi Arabia</h4>
-          <ul>
-            <li>Cumulative GPA: 99.35</li>
-            <li>Qudurat Score: 92</li>
-            <li>Achievement Score: 85</li>
-          </ul>
-        </li>
-        <li>
-          <h4>Umm Al-Qura University | Kingdom of Saudi Arabia</h4>
+          <h4>Bachelor of Computer Science  GPA: 3.62 / 4.0                                2023 – Present</h4>
           <ul>
             <li>
-              Bachelor of Computer Science Student | Current Cumulative GPA:
-              3.62 / 4.0
+              Umm Al-Qura University | Kingdom of Saudi Arabia 
             </li>
             <li>
-              Studied programming fundamentals and algorithms, and data
-              structures.
-            </li>
-            <li>
-              Studied computer networks, databases, cybersecurity, and web
-              development.
+              Expected Graduation: 2027
             </li>
           </ul>
         </li>
