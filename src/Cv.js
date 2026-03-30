@@ -17,7 +17,7 @@ export default function Cv() {
       <h3>Education</h3>
       <ul>
         <li>
-          <h4>Bachelor of Computer Science  GPA: 3.62 / 4.0                                 2023 – Present</h4>
+          <h4>Bachelor of Computer Science  GPA: 3.62 / 4.0                                 ( 2023 – Present ) </h4>
           <ul>
             <li>
               Umm Al-Qura University | Kingdom of Saudi Arabia 
@@ -31,7 +31,7 @@ export default function Cv() {
 
       <h3>Certificates and Courses</h3>
       <ol>
-        <li>Cybersecurity Fundamentals | IBM SkillsBuild, September 2025</li>
+        <li>Cybersecurity Fundamentals | IBM SkillsBuild | September 2025</li>
         <li>Network Security 102 | Satr Platform | Sep 2025</li>
         <li>Web Development Fundamentals | IBM SkillsBuild | Sep 2025 </li>
         <li>Data Entry and Word Processing | Al-Basaer Institute  </li>
