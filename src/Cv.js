@@ -17,7 +17,7 @@ export default function Cv() {
       <h3>Education</h3>
       <ul>
         <li>
-          <h4>Bachelor of Computer Science  GPA: 3.62 / 4.0                                2023 – Present</h4>
+          <h4>Bachelor of Computer Science  GPA: 3.62 / 4.0                                 2023 – Present</h4>
           <ul>
             <li>
               Umm Al-Qura University | Kingdom of Saudi Arabia 
