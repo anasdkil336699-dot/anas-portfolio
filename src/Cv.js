@@ -14,21 +14,21 @@ export default function Cv() {
         including switches, routers, and servers.
       </p>
 
-      <h3>Education</h3>
-      <ul>
-        <li>
-          <h4>Bachelor of Computer Science  GPA: 3.62 / 4.0                                 ( 2023 – Present ) </h4>
-          <ul>
-            <li>
-              Umm Al-Qura University | Kingdom of Saudi Arabia 
-            </li>
-            <li>
-              Expected Graduation: 2027
-            </li>
-          </ul>
-        </li>
-      </ul>
-
+<h3>Education</h3>
+      
+      <article>
+        <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', flexWrap: 'wrap' }}>
+          <h4>Bachelor of <strong>Computer Science</strong> GPA: 3.62 / 4.0</h4>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>2023 – Present</span>
+        </div>
+        <ul>
+          <li style={{ listStyleType: 'none', marginLeft: '-20px' }}>
+            <strong>Umm Al-Qura</strong> University | Kingdom of Saudi Arabia <br />
+            <strong>Expected Graduation:</strong> 2027
+          </li>
+        </ul>
+      </article>
+  
 <h3>Experience</h3>
       
       <article>
