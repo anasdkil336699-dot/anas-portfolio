@@ -29,70 +29,70 @@ export default function Cv() {
         </li>
       </ul>
 
+<h3>Experience</h3>
+      
+      <article>
+        <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', flexWrap: 'wrap' }}>
+          <h4>Cybersecurity & Networks Intern | Yanpet - SABIC Affiliate</h4>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Jan 2026 – Jun 2026</span>
+        </div>
+        <ul>
+          <li>
+            <strong>Infrastructure & System Administration:</strong> Configured Cisco switches (VLANs, Ports, IPs), deployed Windows Server with RAID, and managed Active Directory, GPOs, DNS, and central patching via WSUS.
+          </li>
+          <li>
+            <strong>Information Security & Data Protection:</strong> Implemented security controls to ensure data integrity and confidentiality (CIA Triad), while monitoring and protecting industrial data flows within the operational technology (OT) network.
+          </li>
+          <li>
+            <strong>Technical Support & Security Awareness:</strong> Handled end-user PC setup and corporate provisioning, while delivering cybersecurity awareness presentations to educate employees on data protection.
+          </li>
+        </ul>
+      </article>
+
       <h3>Certificates and Courses</h3>
       <ol>
-        <li>Cybersecurity Fundamentals | IBM SkillsBuild | September 2025</li>
-        <li>Network Security 102 | Satr Platform | Sep 2025</li>
-        <li>Web Development Fundamentals | IBM SkillsBuild | Sep 2025 </li>
-        <li>Data Entry and Word Processing | Al-Basaer Institute  </li>
+        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+          <span><strong>Data Entry and Word Processing</strong> | Al-Basaer Institute</span>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>March 2026</span>
+        </li>
+        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+          <span><strong>Web Development Fundamentals</strong> | IBM SkillsBuild</span>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+        </li>
+        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+          <span><strong>Cybersecurity Fundamentals</strong> | IBM SkillsBuild</span>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+        </li>
+        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+          <span><strong>Network Security 102</strong> | Satr Platform</span>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+        </li>
       </ol>
 
       <h3>Projects</h3>
 
       <article>
-        <h4>Cybersecurity Simulation | IBM SkillsBuild | September 2025</h4>
+        <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', flexWrap: 'wrap' }}>
+          <h4>1. Cisco Assets & Vulnerability Assessment Project | Yanpet</h4>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>May 2026</span>
+        </div>
         <ul>
-          <li>
-           Identified vulnerabilities and applied basic defensive measures in real-world scenarios. 
-          </li>
+          <li>I have <strong>inventoried</strong> and documented the <strong>routers and switches</strong> belonging to Cisco.</li>
+          <li><strong>Checked</strong> hardware and firmware <strong>versions</strong> to identify <strong>existing vulnerabilities</strong> in each device.</li>
+          <li>Researched and <strong>developed solutions</strong> to prevent the exploitation of these vulnerabilities.</li>
         </ul>
       </article>
 
       <article>
-        <h4>Web Development Project | IBM SkillsBuild | Sep 2025</h4>
+        <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', flexWrap: 'wrap' }}>
+          <h4>2. Personal Portfolio Website</h4>
+          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+        </div>
         <ul>
-          <li>
-            Developed an interactive web application using HTML, CSS, and JavaScript. 
-          </li>
+          <li>Developed a personal website to showcase projects and skills.</li>
+          <li>Portfolio: <strong>https://anas-portfolio-rose.vercel.app/</strong></li>
         </ul>
       </article>
-
-      <article>
-        <h4>
-          Java Garage Management System | Satr Educational Platform, September
-          2025
-        </h4>
-        <ul>
-          <li>
-            Built a vehicle management system using OOP principles. 
-          </li>
-        </ul>
-      </article>
-
-      <article>
-        <h4>
-          Personal Portfolio Website | 2025
-        </h4>
-        <ul>
-          <li>
-           Developed a personal website to showcase projects and skills.  
-          </li>
-          <li>
-           Portfolio: anas-portfolio-rose.vercel.app   
-          </li>
-        </ul>
-      </article>
-
-      <h3> Experience</h3>
-      <h4>
-        Cybersecurity Trainee | Yanpet (A SABIC subsidiary) | 2026 – Present  
-      </h4>
-      <ol>
-        <li>Gaining hands-on experience in protecting industrial systems within an operational environment.</li>
-        <li> Working with network infrastructure, including switches, routers, and servers.</li>
-        <li> Assisting in monitoring and maintaining system security and performance.</li>
-        <li>Supporting basic network and system-related tasks within the I&CS department.</li>
-      </ol>
 
             
       <h3>Skills</h3>
