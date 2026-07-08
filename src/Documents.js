@@ -6,18 +6,18 @@ export default function Documents() {
       <h2>Certificates</h2>
 
       <div className="doc-grid">
-        {/* كرت الشهادة الاحترافية CompTIA Security+ ce */}
+{/* كرت الشهادة الاحترافية CompTIA Security+ ce */}
         <div className="doc-card">
           <span>📄</span>
           <p>CompTIA Security+ ce</p>
           <a
-            href="/CompTIA%20Security+%20ce%20certificate.pdf"
+            href="/security_plus_cert.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
             View
           </a>
-          <a href="/CompTIA%20Security+%20ce%20certificate.pdf" download>
+          <a href="/security_plus_cert.pdf" download>
             Download
           </a>
         </div>
@@ -27,13 +27,13 @@ export default function Documents() {
           <span>📄</span>
           <p>CompTIA Security+ Training Course</p>
           <a
-            href="/CompTIA%20Security+%20Training%20Course.pdf"
+            href="/security_plus_course.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
             View
           </a>
-          <a href="/CompTIA%20Security+%20Training%20Course.pdf" download>
+          <a href="/security_plus_course.pdf" download>
             Download
           </a>
         </div>
