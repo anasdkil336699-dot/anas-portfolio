@@ -50,24 +50,32 @@ export default function Cv() {
       </article>
 
       <h3>Certificates and Courses</h3>
-      <ol>
-        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
-          <span><strong>Data Entry and Word Processing</strong> | Al-Basaer Institute</span>
-          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>March 2026</span>
-        </li>
-        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
-          <span><strong>Web Development Fundamentals</strong> | IBM SkillsBuild</span>
-          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
-        </li>
-        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
-          <span><strong>Cybersecurity Fundamentals</strong> | IBM SkillsBuild</span>
-          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
-        </li>
-        <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
-          <span><strong>Network Security 102</strong> | Satr Platform</span>
-          <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
-        </li>
-      </ol>
+    <ol>
+      <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+        <span><strong>CompTIA Security+ Training Course</strong> | Cyberani Academy</span>
+        <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>June 2026</span>
+      </li >
+      <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+        <span><strong>CompTIA Security+ ce</strong> | CompTIA</span>
+        <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>June 2026</span>
+      </li>
+      <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+        <span><strong>Data Entry and Word Processing</strong> | Al-Basaer Institute</span>
+        <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>March 2026</span>
+      </li>
+      <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+        <span><strong>Web Development Fundamentals</strong> | IBM SkillsBuild</span>
+        <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+      </li>
+      <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+        <span><strong>Cybersecurity Fundamentals</strong> | IBM SkillsBuild</span>
+        <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+      </li>
+      <li style={{ display: 'flex', justifyContent: 'between', marginBottom: '4px' }}>
+        <span><strong>Network Security 102</strong> | Satr Platform</span>
+        <span style={{ fontWeight: 'bold', marginLeft: 'auto' }}>Sep 2025</span>
+      </li>
+    </ol>
 
       <h3>Projects</h3>
 
